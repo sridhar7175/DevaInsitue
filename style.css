@@ -1,0 +1,484 @@
+/* ----------Media Queries Start----------- */
+body{
+  
+font-family: 'Montserrat', sans-serif;
+}
+ @media only screen and (min-resolution: 117dpi) and (max-resolution: 119dpi), only screen and (min-resolution: 131dpi) and (max-resolution: 133dpi), only screen and (min-resolution: 145dpi) and (max-resolution: 154dpi), only screen and (min-resolution: 162dpi) and (max-resolution: 164dpi), only screen and (min-resolution: 169dpi) {
+    /* Your touch-specific css goes here */
+    #header {
+      
+      background-color: #F9F9F9;
+  }
+  .carousel-caption{
+    padding-bottom: 47px !important;
+  }
+  .box1{
+    margin-bottom: 40px;
+  }
+  .box2{
+    margin-bottom: 40px;
+  }
+  .box3{
+    margin-bottom: 40px;
+  }
+  .cousres .cousres2 img{
+    width: 290px;
+  }
+  .keyfeatures img{
+    text-align: center !important;
+    margin: auto !important;
+    width: 300px;
+    padding-top: -10px;
+  }
+  .location2 img{
+    width: 290px !important;
+  }
+  .coperatetraininga{
+    margin-top: -206px;
+    text-align: left;
+  }
+  .coperatetrainingb img{
+    padding-top: 30px;
+    width: 300px;
+    text-align: center;
+  }
+  .devainsa .devaa{
+    margin-top: 40px;
+  }
+  .devainsa img{
+    text-align: center;
+    width: 300px;
+    padding-bottom: 22px;
+  }
+  #owl-demo .item {
+    margin: 3px;
+    cursor: pointer;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    
+}
+.devainsa .devaa h2{
+  margin-top: -84px;
+}
+.testimonial {
+  padding-top: 30px;
+  background-color: #F3F3FB;
+  width: 100%;
+  height: 750px !important;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.gallerys{
+  background-color: #1A1A1C;
+   width: 100%;
+   height: 500px;
+   color: white;
+   border-radius: 25px;
+   text-align: center;
+ }
+ .gallerys .carousel-item{
+  width: 100%;
+  height: 400px;
+ }
+ .navbar-toggler{
+   color: white;
+   background-color: white;
+ }
+ .havequestions{
+  background-color: #4824E0;
+  width: 100%;
+  height: 950px !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+.locations img{
+  width: 345px;
+}
+ 
+
+  }
+  @media only screen and (min-resolution: 165dpi) and (max-resolution: 168dpi), only screen and (min-resolution: 155dpi) and (max-resolution: 160dpi), only screen and (min-resolution: 134dpi) and (max-resolution: 144dpi), only screen and (min-resolution: 120dpi) and (max-resolution: 130dpi), only screen and (max-resolution: 116dpi) {
+    /* Your click-specific css goes here */
+
+  }
+/* ----------Media Queries End----------- */
+/* ------NavBar Start----------- */
+ .navbar-brand{
+    font-size: 40px !important;
+}
+#header {
+    width: 100%;
+    padding-top: 8px !important; 
+    background-color: violet;
+    height: 100px;
+    color: white;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active,
+ .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+   font-size: 20px;
+   padding-right: 30px;
+   
+ }
+ #nav li a{
+   color: white;
+ }
+ #header .trainer1 {
+  background-color: #D39E2A;
+  color: white;
+  border-radius: 25px;
+
+  
+}
+.navbar-nav li a{
+  position: relative;
+  color: white;
+  transition: 0.7s all;
+  padding: 14px 20px;
+  overflow: hidden;
+
+}
+.navbar-nav li a:before{
+content: '';
+width: 30px;
+position: absolute;
+border-bottom: 8px solid black;
+bottom: 0;
+right:350px;
+transition: 0.7s all;
+}
+.navbar-nav li a:hover::before{
+  right: 0;
+}
+
+.trainer1:hover {
+  background-color:#07BD6D !important;
+}
+
+/* ------------------------Carousel Start  ------------------------------------------------*/
+.carousel-caption{
+  padding-bottom: 250px;
+  text-align: left;
+}
+.carousel-caption h3{
+  font-size: 35px;
+  color: tomato;
+}
+.carousel-caption p{
+  font-size: 18px;
+  color: saddlebrown;
+}
+.car12{
+  background-color: #D39E2A;
+  color: white !important;
+   text-align: center !important;
+   padding: 14px 28px; /* Add some padding */
+   
+}
+.car12:hover {
+  background-color:#07BD6D !important;
+}
+/* -------------------Carousel End---------- */
+
+/* -----------------Students Start ---------------------------*/
+.students{
+  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: black;
+  background-color: #F9F9F9;
+  border-radius: 25px;
+}
+.s1{
+  padding-top: 50px;
+  text-align: center;
+}
+.box1{
+  padding-top: 25px;
+  border-radius: 25px;
+  background-color: white;
+  padding-bottom: 40px;
+  height: 380px;
+}
+.s2{
+  padding-top: 50px;
+  
+}
+.s3{
+  padding-top: 50px;
+}
+.box2{
+  padding-top: 25px;
+  border-radius: 25px;
+  background-color: white;
+  padding-bottom: 40px;
+  height: 380px;
+}
+.box3{
+  padding-top: 25px;
+  border-radius: 25px;
+  background-color: white;
+  padding-bottom: 40px;
+  height: 380px;
+}
+/* ------End-------------------- */
+/* -------cousres Start----------- */
+.cousres{
+  background-color: #F9F9F9;
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.animated {
+  -webkit-animation-duration: 1.3s;
+  animation-duration: 1.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.cousres1{
+  padding-top: 70px;
+  padding-bottom: 70px; 
+}
+.car123{
+  background-color: #D39E2A;
+  color: white !important;
+   text-align: center !important;
+   margin: auto;
+   padding: 14px 28px; /* Add some padding */
+   
+}
+/* --------cousres End----------- */
+/* -------keyfeatures Start----------- */
+.keyfeatures{
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+/* --------keyfeatures End-------------- */
+/* -------coperatetraining Start-------- */
+.coperatetraininga{
+  padding-top: 200px;
+}
+
+/* ---------coperatetraining End-------- */
+/* -------Devains Start----- */
+.devainsa{
+  margin-top: 80px;
+  background-color: cornflowerblue;
+  margin-bottom: 50px;
+ 
+}
+.devainsa .devaa{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: white;
+}
+/* -----Devains End---------- */
+/*------Clients Start-------- */
+.clients{
+  margin-bottom: 50px;
+}
+#owl-demo .item img{
+  margin: auto !important;
+  width: 154px;
+}
+ #owl-demo .item {
+            display: block;
+            padding: 30px 0px;
+            margin: 5px;
+            color: #FFF;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        .owl-theme .owl-controls .owl-buttons div {
+            padding: 5px 9px;
+        }
+
+        .owl-theme .owl-buttons i {
+            margin-top: 2px;
+        }
+
+
+        .owl-theme .owl-controls .owl-buttons div {
+            position: absolute;
+        }
+
+        .owl-theme .owl-controls .owl-buttons .owl-prev {
+            left: -11px;
+            top: 60px;
+        }
+
+        .owl-theme .owl-controls .owl-buttons .owl-next {
+            right: -11px;
+            top: 60px;
+        }
+
+        .item img {
+            width: 200px;
+        }
+
+        .fa-arrow-left {
+            background-color: black;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            padding-top: 10px;
+            border-radius: 25px;
+            color: white;
+        }
+        .fa-arrow-right{
+            background-color: black;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            padding-top: 10px;
+            border-radius: 25px;
+            color: white;
+        }
+
+
+/* ------Clients End----------- */
+
+/* ----testimonial Start-------- */
+.testimonial{
+  padding-top: 30px;
+  background-color: #F3F3FB;
+  width: 100%;
+  height: 550px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.gallerys{
+  background-color: #1A1A1C;
+   width: 100%;
+   height: 100%;
+   color: white;
+   border-radius: 25px;
+ 
+ }
+ 
+ .nag{
+ 
+   font-size: 40px;
+   color: burlywood;
+   
+ }
+ .nags  a{
+   text-align: center !important;
+   text-decoration: none;
+  
+ }
+ .gallerys a{
+   text-decoration: none !important;
+ }
+ 
+ .rama{
+   color: brown;
+ }
+ .ramas{
+   width: 100%;
+   height: 300px;
+   background-color: #10101000 !important;
+  
+ }
+ .good{
+   margin: auto;
+ }
+ 
+ .god img{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border-radius: 50%;
+ }
+ .carousel-control-prev-icon {
+  background-color: blue;
+  border-radius: 25px;
+  width: 50px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+}
+.carousel-control-next-icon {
+  background-color: blue;
+  border-radius: 25px;
+  width: 50px;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+}
+ 
+ /*test */
+ 
+/* -------testimonial End */
+
+/* ----Havequestions  Start--------*/
+.havequestions{
+  background-color: #4824E0;
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+/*-------havequestions End-------*/
+
+/* ----locations Start ----*/
+.locations{
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+.location1{
+  border: 1px solid black;
+}
+
+/* ----locations End ----*/
+/* -----Main-Footer Start--------*/
+.main-footer{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 300px;
+  background-color: #3F19E0;
+  padding-top: 40px;
+  text-align: center;
+}
+.mainfooter1 a{
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+.mainfooter2{
+  display: inline;
+  color: white;
+  padding-top: 30px;
+}
+.mainfooter2 .fab {
+  font-size: 31px !important;
+  color: white;
+}
+.mainfooter3 h6{
+  padding-top: 70px;
+  color: white;
+}
+
+/* -----Main-Footer End--------*/
+
+
+/*------Coures.html Start--------------------------- */
+
+
+
+/*------Coures.html End--------------------------- */
